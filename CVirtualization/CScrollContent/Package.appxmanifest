@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="05919c4b-9ee1-4270-aabf-fc20811419f4"
+    Name="3db9db24-ac62-485a-95d5-683f7b8ef28e"
     Publisher="CN=v-xunwu"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="05919c4b-9ee1-4270-aabf-fc20811419f4" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3db9db24-ac62-485a-95d5-683f7b8ef28e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>CVirtualization</DisplayName>
+    <DisplayName>CScrollContent</DisplayName>
     <PublisherDisplayName>v-xunwu</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="CVirtualization.App">
+      EntryPoint="CScrollContent.App">
       <uap:VisualElements
-        DisplayName="CVirtualization"
+        DisplayName="CScrollContent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="CVirtualization"
+        Description="CScrollContent"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
